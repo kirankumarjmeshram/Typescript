@@ -82,7 +82,6 @@ This repository is maintained as part of my continuous learning journey. New exa
 ## 📖 Resources
 
 - https://www.typescriptlang.org/docs/
-- https://www.typescriptlang.org/play
 
 ## 👨‍💻 Author
 

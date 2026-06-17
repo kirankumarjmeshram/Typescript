@@ -1,0 +1,24 @@
+
+TypeScript support static + dynamic typing, Type Inferencing, 8+ datatypes
+
+JavaScript is dynamic typing
+
+
+Data Types:
+In JavaScript (8) datatypes
+1. Number
+2. String
+3. boolean
+4. object (arrays are treated as object)
+5. null
+6. undefined
+7. bigInt (value > 3^53)
+8. Symbol (unique value)
+
+All JavaScript datatypes are supported in TypeScript
+9. any (make TS dynamic typing)
+10. union
+11. literal
+12. array
+13. tuple
+
