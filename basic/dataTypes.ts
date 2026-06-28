@@ -20,7 +20,21 @@ let data : number[] = [10,30,40,50];
 let info : string[] = ["hi", "hello"];
 let mydata : any[] = [100,"hi", true];
 
+// ? -> makes property optional
+//readOnly properly => cannot change
 //tuple datatypes
-let myinfo : [string, number,string,boolean] = 
+let myinfo : readonly [string, number,string,boolean?] = 
     ["hi", 123, "hello", true]
+
+//object
+
+let myObj:{id:number,name:string, isMarried?:boolean,company?:null} ={
+    id:101,
+    name:"KKRJM",
+    isMarried:false,
+}
+console.log("myLog", myObj)
+
+
+let myObj2:{readonly id:number} = {id:110}
 
